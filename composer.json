@@ -1,6 +1,9 @@
 {
     "name": "mauricio/camelot-php",
-    "description": "update simphony version of original library",
+    "require": {
+        "symfony/process": "^6.3",
+        "spatie/temporary-directory": "^2.1"
+    },
     "autoload": {
         "psr-4": {
             "Mauricio\\CamelotPhp\\": "src/"
@@ -11,6 +14,5 @@
             "name": "Mauricio",
             "email": "mauricio.montoyav@gmail.com"
         }
-    ],
-    "require": {}
+    ]
 }
