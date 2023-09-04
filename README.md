@@ -1,10 +1,10 @@
-# randomstate/camelot-php
+# ingmontoyav/camelot-php
 
-A PHP wrapper for Camelot, the python PDF table extraction library
+A fork of randomstate/camelot-php but upgrading symfony/process to latest version
 
 ## Installation
 
-`composer require randomstate/camelot-php`
+`composer require ingmontoyav/camelot-php`
 
 ## Usage
 
